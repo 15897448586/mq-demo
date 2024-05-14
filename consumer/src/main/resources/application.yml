@@ -10,4 +10,4 @@ spring:
     password: 200424zlx # 密码
     listener:
       simple:
-        prefetch: 1 # 每次只能获取一条消息，处理完成才能获取下一个消息
+        prefetch: 1 # 每次只能获取一条消息，处理完成才能获取下一个消息,解决平均分配的问题
